@@ -37,6 +37,10 @@ Programa para la administración de inventario en un negocio:
 
 ### Entrada y salida del sistema
 
+Descargar la versión más reciente [aquí](https://git.rahcode.com/inventory.java/releases/latest)
+
+Si es una actualización o parche (no tiene un año en el nombre), entonces descargar las otras actualizaciones de la mas antigua a la más reciente (en caso de no tenerlas instaladas) y mover los archivos a la carpeta donde tiene instalado el programa con la versión anual.
+
 El archivo ejecutable se descargará como un .zip. Al momento de descomprimirlo quedará en descargas con el mismo nombre, solo que esta vez será una carpeta.
 
 ![Descomprimir](/docs/1.png)
