@@ -1,7 +1,5 @@
 # inventory.java
 
-Proyecto Final - Desarrollo de Software
-
 ## Manual de usuario
 
 ### Introducción
@@ -41,31 +39,31 @@ Programa para la administración de inventario en un negocio:
 
 El archivo ejecutable se descargará como un .zip. Al momento de descomprimirlo quedará en descargas con el mismo nombre, solo que esta vez será una carpeta.
 
-![Descomprimir](/assets/readme/1.png)
+![Descomprimir](/docs/1.png)
 
 Ejecute el archivo app.jar, necesita la versión más reciente de [Java](https://www.java.com/download)
 
-![Ejecutar](/assets/readme/2.png)
+![Ejecutar](/docs/2.png)
 
 ### Uso de la aplicación
 
 Al iniciar el programa aparece la siguiente interfaz
 
-![Iniciar](/assets/readme/3.png)
+![Iniciar](/docs/3.png)
 
 Se necesita crear un usuario forzosamente. Una vez hecho presione el botón a continuación.
 
-![Registrar](/assets/readme/4.png)
+![Registrar](/docs/4.png)
 
 Una vez que se ha iniciado sesión aparecerá la siguiente interfaz.
 
-![Ingresar](/assets/readme/5.png)
+![Ingresar](/docs/5.png)
 
 Con el botón subrayado se agregan productos.
 
-![Agregar](/assets/readme/6.png)
+![Agregar](/docs/6.png)
 
 Con el siguiente botón se ven productos en la tabla.
 
-![Ver](/assets/readme/7.png)
-![Fin](/assets/readme/8.png)
+![Ver](/docs/7.png)
+![Fin](/docs/8.png)
