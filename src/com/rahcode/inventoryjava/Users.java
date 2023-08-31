@@ -65,7 +65,7 @@ public class Users extends JFrame{
     private Products products=new Products();
 
     public Users(Boolean darkTheme){
-        setIconImage(Toolkit.getDefaultToolkit().getImage("assets\\img\\perfil.png"));
+        setIconImage(Toolkit.getDefaultToolkit().getImage("assets/img/perfil.png"));
         try{
             index(darkTheme);
         } catch (FontFormatException | IOException e){
@@ -115,17 +115,17 @@ public class Users extends JFrame{
             @Override
             public void mouseEntered(MouseEvent e){
                 if(darkTheme){
-                    change_theme.setIcon(new ImageIcon("assets\\icons\\brightness-activate.png"));
+                    change_theme.setIcon(new ImageIcon("assets/icons/brightness-activate.png"));
                 }else{
-                    change_theme.setIcon(new ImageIcon("assets\\icons\\moon-activate.png"));
+                    change_theme.setIcon(new ImageIcon("assets/icons/moon-activate.png"));
                 }
             }
             @Override
             public void mouseExited(MouseEvent e){
                 if(darkTheme){
-                    change_theme.setIcon(new ImageIcon("assets\\icons\\brightness.png"));
+                    change_theme.setIcon(new ImageIcon("assets/icons/brightness.png"));
                 }else{
-                    change_theme.setIcon(new ImageIcon("assets\\icons\\moon.png"));
+                    change_theme.setIcon(new ImageIcon("assets/icons/moon.png"));
                 }
             }
             @Override
@@ -135,9 +135,9 @@ public class Users extends JFrame{
             }
         });
         if(darkTheme){
-            change_theme.setIcon(new ImageIcon("assets\\icons\\brightness.png"));
+            change_theme.setIcon(new ImageIcon("assets/icons/brightness.png"));
         }else{
-            change_theme.setIcon(new ImageIcon("assets\\icons\\moon.png"));
+            change_theme.setIcon(new ImageIcon("assets/icons/moon.png"));
         }
         change_theme.setBounds(1038,2,25,25);
         panelBar.add(change_theme);
@@ -291,14 +291,14 @@ public class Users extends JFrame{
         footer_social.addMouseListener(new MouseAdapter(){
             @Override
             public void mouseEntered(MouseEvent e){
-                footer_social.setIcon(new ImageIcon("assets\\icons\\github-alt-activate.png"));
+                footer_social.setIcon(new ImageIcon("assets/icons/github-alt-activate.png"));
             }
             @Override
             public void mouseExited(MouseEvent e){
-                footer_social.setIcon(new ImageIcon("assets\\icons\\github-alt.png"));
+                footer_social.setIcon(new ImageIcon("assets/icons/github-alt.png"));
             }
         });
-        footer_social.setIcon(new ImageIcon("assets\\icons\\github-alt.png"));
+        footer_social.setIcon(new ImageIcon("assets/icons/github-alt.png"));
         footer_social.setBounds(768,49,20,20);
         panelFooter.add(footer_social);
         
@@ -306,14 +306,14 @@ public class Users extends JFrame{
         footer_social_1.addMouseListener(new MouseAdapter(){
             @Override
             public void mouseEntered(MouseEvent e){
-                footer_social_1.setIcon(new ImageIcon("assets\\icons\\blogger-alt-activate.png"));
+                footer_social_1.setIcon(new ImageIcon("assets/icons/blogger-alt-activate.png"));
             }
             @Override
             public void mouseExited(MouseEvent e){
-                footer_social_1.setIcon(new ImageIcon("assets\\icons\\blogger-alt.png"));
+                footer_social_1.setIcon(new ImageIcon("assets/icons/blogger-alt.png"));
             }
         });
-        footer_social_1.setIcon(new ImageIcon("assets\\icons\\blogger-alt.png"));
+        footer_social_1.setIcon(new ImageIcon("assets/icons/blogger-alt.png"));
         footer_social_1.setBounds(808,49,20,20);
         panelFooter.add(footer_social_1);
         
@@ -321,14 +321,14 @@ public class Users extends JFrame{
         footer_social_2.addMouseListener(new MouseAdapter(){
             @Override
             public void mouseEntered(MouseEvent e){
-                footer_social_2.setIcon(new ImageIcon("assets\\icons\\arrow-activate.png"));
+                footer_social_2.setIcon(new ImageIcon("assets/icons/arrow-activate.png"));
             }
             @Override
             public void mouseExited(MouseEvent e){
-                footer_social_2.setIcon(new ImageIcon("assets\\icons\\arrow.png"));
+                footer_social_2.setIcon(new ImageIcon("assets/icons/arrow.png"));
             }
         });
-        footer_social_2.setIcon(new ImageIcon("assets\\icons\\arrow.png"));
+        footer_social_2.setIcon(new ImageIcon("assets/icons/arrow.png"));
         footer_social_2.setBounds(848,49,20,20);
         panelFooter.add(footer_social_2);
         
@@ -336,14 +336,14 @@ public class Users extends JFrame{
         footer_social_3.addMouseListener(new MouseAdapter(){
             @Override
             public void mouseEntered(MouseEvent e){
-                footer_social_3.setIcon(new ImageIcon("assets\\icons\\facebook-f-activate.png"));
+                footer_social_3.setIcon(new ImageIcon("assets/icons/facebook-f-activate.png"));
             }
             @Override
             public void mouseExited(MouseEvent e){
-                footer_social_3.setIcon(new ImageIcon("assets\\icons\\facebook-f.png"));
+                footer_social_3.setIcon(new ImageIcon("assets/icons/facebook-f.png"));
             }
         });
-        footer_social_3.setIcon(new ImageIcon("assets\\icons\\facebook-f.png"));
+        footer_social_3.setIcon(new ImageIcon("assets/icons/facebook-f.png"));
         footer_social_3.setBounds(888,49,20,20);
         panelFooter.add(footer_social_3);
         
@@ -351,14 +351,14 @@ public class Users extends JFrame{
         footer_social_4.addMouseListener(new MouseAdapter(){
             @Override
             public void mouseEntered(MouseEvent e){
-                footer_social_4.setIcon(new ImageIcon("assets\\icons\\instagram-activate.png"));
+                footer_social_4.setIcon(new ImageIcon("assets/icons/instagram-activate.png"));
             }
             @Override
             public void mouseExited(MouseEvent e){
-                footer_social_4.setIcon(new ImageIcon("assets\\icons\\instagram.png"));
+                footer_social_4.setIcon(new ImageIcon("assets/icons/instagram.png"));
             }
         });
-        footer_social_4.setIcon(new ImageIcon("assets\\icons\\instagram.png"));
+        footer_social_4.setIcon(new ImageIcon("assets/icons/instagram.png"));
         footer_social_4.setBounds(768,76,20,20);
         panelFooter.add(footer_social_4);
         
@@ -366,14 +366,14 @@ public class Users extends JFrame{
         footer_social_5.addMouseListener(new MouseAdapter(){
             @Override
             public void mouseEntered(MouseEvent e){
-                footer_social_5.setIcon(new ImageIcon("assets\\icons\\twitter-alt-activate.png"));
+                footer_social_5.setIcon(new ImageIcon("assets/icons/twitter-alt-activate.png"));
             }
             @Override
             public void mouseExited(MouseEvent e){
-                footer_social_5.setIcon(new ImageIcon("assets\\icons\\twitter-alt.png"));
+                footer_social_5.setIcon(new ImageIcon("assets/icons/twitter-alt.png"));
             }
         });
-        footer_social_5.setIcon(new ImageIcon("assets\\icons\\twitter-alt.png"));
+        footer_social_5.setIcon(new ImageIcon("assets/icons/twitter-alt.png"));
         footer_social_5.setBounds(808,76,20,20);
         panelFooter.add(footer_social_5);
         
@@ -381,11 +381,11 @@ public class Users extends JFrame{
         footer_social_6.addMouseListener(new MouseAdapter(){
             @Override
             public void mouseEntered(MouseEvent e){
-                footer_social_6.setIcon(new ImageIcon("assets\\icons\\youtube-activate.png"));
+                footer_social_6.setIcon(new ImageIcon("assets/icons/youtube-activate.png"));
             }
             @Override
             public void mouseExited(MouseEvent e){
-                footer_social_6.setIcon(new ImageIcon("assets\\icons\\youtube.png"));
+                footer_social_6.setIcon(new ImageIcon("assets/icons/youtube.png"));
             }
             @Override
             public void mouseClicked(MouseEvent e) {
@@ -396,7 +396,7 @@ public class Users extends JFrame{
                 }
             }
         });
-        footer_social_6.setIcon(new ImageIcon("assets\\icons\\youtube.png"));
+        footer_social_6.setIcon(new ImageIcon("assets/icons/youtube.png"));
         footer_social_6.setBounds(848,76,20,20);
         panelFooter.add(footer_social_6);
         
@@ -1136,13 +1136,13 @@ public class Users extends JFrame{
         
         JLabel docs_img = new JLabel("");
         docs_img.setHorizontalAlignment(SwingConstants.CENTER);
-        docs_img.setIcon(new ImageIcon("assets\\img\\perfil.png"));
+        docs_img.setIcon(new ImageIcon("assets/img/perfil.png"));
         docs_img.setBounds(587, 49, 289, 259);
         panelDocs.add(docs_img);
         
         JLabel docs_blob = new JLabel("");
         docs_blob.setHorizontalAlignment(SwingConstants.CENTER);
-        docs_blob.setIcon(new ImageIcon("assets\\img\\blob.png"));
+        docs_blob.setIcon(new ImageIcon("assets/img/blob.png"));
         docs_blob.setBounds(538, 24, 387, 340);
         panelDocs.add(docs_blob);
     }
