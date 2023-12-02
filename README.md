@@ -1,73 +1,76 @@
 # inventory.java
 
-## Manual de usuario
+## Introduction
+Welcome to **Inventory.java**, a Java-based application for managing a cell phone case sublimation business. This project utilizes object-oriented programming principles to provide a comprehensive and functional user experience. This README document will guide you through the technical aspects of the program and explain its features.
 
-### Introducción
+## Justification
+This project was developed to meet the requirements of delivering a product that demonstrates the technical knowledge acquired throughout the semester. It aims to provide a complete and secure user experience by implementing extensive functionalities. The system organizes users, determines their capabilities, and controls their actions within the defined scope. This approach ensures a specific and satisfactory level of control for registered users.
 
-En este manual se le explicará al usuario como instalar, entrar y salir del sistema, así como también la manera de hacer uso de ciertas funciones de manera gráfica para un mejor entendimiento del programa. La elaboración de este sistema se basa en incluir todos los conocimientos a lo largo de la esta unidad y de las anteriores con el fin de generar un programa concreto.
+## Development
+### Project Overview
+The program focuses on the sublimation business, specifically managing users and product records. Users have three privilege levels:
 
-### Descripción del proyecto
+- **Level 1:** Can only view product records.
+- **Level 2:** Can view, add, edit, and delete product records.
+- **Level 3:** Can perform all Level 2 actions and manage user records.
 
-Programa para la administración de inventario en un negocio:
-- un registro de usuarios (empleados y otras personas que requieran acceso)
-    - existen 3 niveles de privilegio:
-        - 1: solamente puede ver los registros de productos
-        - 2: lo mismo que el anterior, además de que puede agregar, editar y borrar registros de productos
-        - 3: lo mismo que los dos anteriores, además de poder ver, agregar, editar y borrar los registros de usuario 
-- un registro de productos (muestra también la cantidad de productos que hay y el coste total) en el que se puede ingresar:
-    - Marca
-    - Modelo
-    - Cantidad
-    - Costo (por unidad)
-- una ventana de registro
-    - para crear el primer usuario con privilegio 3 (solamente aparece la primera vez que se ejecuta)
-- una ventana de inicio de sesión
-    - (donde se pueden buscar productos)
-    - una ventana de añadir producto
-    - una ventana de tabla de productos
-        - (donde se pueden borrar productos, nivel de privilegio mínimo requerido: 2)
-        - una ventana de editar productos (nivel de privilegio mínimo requerido: 2)
-- una ventana de usuarios (nivel de privilegio mínimo requerido: 3)
-    - (donde se pueden buscar usuarios, nivel de privilegio mínimo requerido: 3)
-    - una ventana de añadir usuario (nivel de privilegio mínimo requerido: 3)
-    - una ventana de tabla de usuarios (nivel de privilegio mínimo requerido: 3)
-        - (donde se pueden borrar usuarios, nivel de privilegio mínimo requerido: 3)
-        - una ventana de editar usuarios (nivel de privilegio mínimo requerido: 3)
-- Este proyecto está basado en un proyecto mío llamado "[Inventory.php](https://www.rahcode.com/inventory.php)" creado originalmente para "[Good Idea, Arte y Diseño en Sublimación](https://www.rahcode.com/good-idea)".
+Product records include information such as cell phone brand, model, quantity, and cost per unit. The application features various windows for user management, product management, and authentication.
 
-### Entrada y salida del sistema
+### Algorithm
+The algorithm outlines the basic flow of the program:
 
-Descargar la versión más reciente [aquí](https://git.rahcode.com/inventory.java/releases/latest)
+1. Execute the program.
+2. Display the main page.
+3. Enter login credentials.
+4. Log in.
+5. If the decision is:
+   - 5.1 Add user:
+     - 5.1.1 Enter username.
+     - 5.1.2 Enter user password.
+     - 5.1.3 Select privilege level.
+     - 5.1.4 Add user.
+   - 5.2 View user table:
+     - 5.2.1 Edit user:
+       - 5.2.1.1 Enter user ID to edit.
+       - 5.2.1.2 Go to step 5.1.
+     - 5.2.2 Delete user:
+       - 5.2.2.1 Enter user ID to delete.
+       - 5.2.2.2 Delete user.
+   - 5.3 Search for user:
+     - 5.3.1 Enter user ID to search.
+     - 5.3.2 If ID exists:
+       - 5.3.2.1 Display user data.
+     - 5.3.3 Otherwise:
+       - 5.3.3.1 Display error message.
+6. Press "X" button.
+7. Close the program.
 
-Si es una actualización o parche (no tiene un año en el nombre), entonces descargar las otras actualizaciones de la mas antigua a la más reciente (en caso de no tenerlas instaladas) y mover los archivos a la carpeta donde tiene instalado el programa con la versión anual.
+## User Manual
+### Project Description
+Inventory.java is designed for managing a cell phone case sublimation business and includes:
 
-El archivo ejecutable se descargará como un .zip. Al momento de descomprimirlo quedará en descargas con el mismo nombre, solo que esta vez será una carpeta.
+- User registration with three privilege levels.
+- Product registration with details such as brand, model, quantity, and cost per unit.
+- Various windows for user and product management.
+- Based on a previous project called "Inventory.php."
 
-![Descomprimir](/docs/1.png)
+### System Entry and Exit
+1. [Download](https://github.com/milosnowcat/inventory.java/releases/latest) the executable as a .zip file.
+2. Extract the contents, and locate the inventory-java.jar file.
+3. Run the program using the latest version of Java or through Eclipse IDE.
 
-Ejecute el archivo app.jar, necesita la versión más reciente de [Java](https://www.java.com/download)
+   ```
+   java -jar inventory-java.jar
+   ```
 
-![Ejecutar](/docs/2.png)
+4. To exit the system, close the window.
 
-### Uso de la aplicación
+### Application Usage
+1. Upon launching, the main interface will appear.
+2. Create a user account, and click the designated button.
+3. After logging in, the main interface for product and user management will be displayed.
+4. Use the buttons to add products or view product tables.
 
-Al iniciar el programa aparece la siguiente interfaz
+Feel free to explore the various features of **Inventory.java** to manage your sublimation business efficiently.
 
-![Iniciar](/docs/3.png)
-
-Se necesita crear un usuario forzosamente. Una vez hecho presione el botón a continuación.
-
-![Registrar](/docs/4.png)
-
-Una vez que se ha iniciado sesión aparecerá la siguiente interfaz.
-
-![Ingresar](/docs/5.png)
-
-Con el botón subrayado se agregan productos.
-
-![Agregar](/docs/6.png)
-
-Con el siguiente botón se ven productos en la tabla.
-
-![Ver](/docs/7.png)
-![Fin](/docs/8.png)
+For any additional information or support, refer to the original project at [Inventory.php](https://www.rahcode.com/inventory.php).
